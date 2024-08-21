@@ -7,6 +7,9 @@ public class TesGuru {
         Guru buFeni = new Guru();
         Guru buPasha = new Guru();
         Guru pakAndre = new Guru();
+        Guru buChusnu = new Guru();
+        Guru pakEmil = new Guru();
+
         pakDiaur.id = 1;
         pakDiaur.nama = "pakDiaur";
         pakDiaur.mapel = "pjok";
@@ -52,6 +55,25 @@ public class TesGuru {
         System.out.println(pakAndre.nama);
         System.out.println(pakAndre.mapel);
         System.out.println(pakAndre.alamat);
+        buChusnu.id = 6;
+        buChusnu.nama = "buChusni";
+        buChusnu.mapel = "ipas";
+        buChusnu.alamat = "malang";
+        System.out.println(buChusnu.id);
+        System.out.println(buChusnu.nama);
+        System.out.println(buChusnu.mapel);
+        System.out.println(buChusnu.alamat);
+        pakEmil.id = 7;
+        pakEmil.nama = "pakEmil";
+        pakEmil.mapel = "kesiswaan";
+        pakEmil.alamat = "malang";
+        System.out.println(pakEmil.id);
+        System.out.println(pakEmil.nama);
+        System.out.println(pakEmil.mapel);
+        System.out.println(pakEmil.alamat);
+
+        buChusnu.print();
+        pakEmil.print();
 
     
     }
